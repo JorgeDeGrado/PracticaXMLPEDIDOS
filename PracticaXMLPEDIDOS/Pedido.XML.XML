@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<root>
+<pedido>
+    <nombre>Francisco Romero</nombre>
+    <articulo>
+        <producto>PlayStation5</producto>
+    </articulo>
+    <direccion>
+        <calle>Huerta</calle>
+        <numero>3</numero>
+        <piso>Tercero</piso>
+        <letra>B</letra>
+        <fecha>19/1/2023</fecha>
+    </direccion>
+</pedido>
+
+<pedido>
+    <cliente>Francisco Romero</cliente>
+    <contenido>
+        <articulo cantidad="1">PlayStation5</articulo>
+        <articulo cantidad="2">Mando</articulo>
+        <articulo cantidad="4">Cableado</articulo>
+    </contenido>
+    <entrega>
+        <calle>Huerta</calle>
+        <numero>3</numero>
+        <piso>Tercero</piso>
+        <letra>B</letra>
+        <fecha>19/1/2023</fecha>
+    </entrega>
+</pedido>
+</root>
