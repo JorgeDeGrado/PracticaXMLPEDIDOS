@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<horario>
+    <table>
+        <caption>Horario de clase</caption>
+        <semana>
+            <dia pos="1" nombre="Lunes">
+                <clase hora="8:00">Bases Datos</clase>
+                <clase hora="9:00">Sistemas</clase>
+                <clase hora="10:00">Programación</clase>
+                <clase hora="11:30">FOL</clase>
+                <clase hora="12:30">Marcas</clase>
+                <clase hora="13:30">Entornos</clase>
+            </dia>
+            <dia pos="2" nombre="Martes">
+                <clase hora="8:00">Bases Datos</clase>
+                <clase hora="9:00">FOL</clase>
+                <clase hora="10:00">FOL</clase>
+                <clase hora="11:30">Sistemas</clase>
+                <clase hora="12:30">Sistemas</clase>
+                <clase hora="13:30">Sistemas</clase>
+            </dia>  
+            <dia pos="3" nombre="Miercoles">
+                <clase hora="8:00">Programación</clase>
+                <clase hora="9:00">Programación</clase>
+                <clase hora="10:00">Marcas</clase>
+                <clase hora="11:30">Marcas</clase>
+                <clase hora="12:30">Sistemas</clase>
+                <clase hora="13:30">Sistemas</clase>
+            </dia>
+            <dia pos="4" nombre="Jueves">
+                <clase hora="8:00">Programación</clase>
+                <clase hora="9:00">Programación</clase>
+                <clase hora="10:00">Programación</clase>
+                <clase hora="11:30">Bases Datos</clase>
+                <clase hora="12:30">Entornos</clase>
+                <clase hora="13:30">Entornos</clase>
+            </dia>
+            <dia pos="5" nombre="Viernes">
+                <clase hora="8:00">Programación</clase>
+                <clase hora="9:00">Programación</clase>
+                <clase hora="10:00">Marcas</clase>
+                <clase hora="11:30">Bases Datos</clase>
+                <clase hora="12:30">Bases Datos</clase>
+                <clase hora="13:30">Bases Datos</clase>
+            </dia> 
+        </semana>
+    </table>
+    
+    <table>
+        <modulo nombre="Bases Datos">            
+            <horas>
+                <hora dia="Lunes">8:00</hora>
+                <hora dia="Martes">8:00</hora>
+                <hora dia="Jueves">11:30</hora>
+                <hora dia="Viernes">11:30</hora>
+                <hora dia="Viernes">12:30</hora>
+                <hora dia="Viernes">13:30</hora>
+            </horas>
+        </modulo>
+        <modulo nombre="Sistemas">            
+            <horas>
+                <hora dia="Lunes"></hora>
+                <hora dia="Martes">11:30</hora>
+                <hora dia="Martes">12:30</hora>
+                <hora dia="Martes">13:30</hora>
+                <hora dia="Miercoles">12:30</hora>
+                <hora dia="Miercoles">13:30</hora>
+            </horas>
+        </modulo>
+        <modulo nombre="Programación">            
+            <horas>
+                <hora dia="Lunes">10:00</hora>
+                <hora dia="Miercoles">8:00</hora>
+                <hora dia="Miercoles">9:00</hora>
+                <hora dia="Jueves">8:00</hora>
+                <hora dia="Jueves">9:00</hora>
+                <hora dia="Jueves">10:00</hora>
+                <hora dia="Viernes">8:00</hora>
+                <hora dia="Viernes">9:00</hora>
+            </horas>
+        </modulo>
+        <modulo nombre="FOL">            
+            <horas>
+                <hora dia="Lunes">11:30</hora>
+                <hora dia="Martes">9:00</hora>
+                <hora dia="Martes">10:00</hora>
+            </horas>
+        </modulo>
+        <modulo nombre="Marcas">            
+            <horas>
+                <hora dia="Lunes">12:30</hora>
+                <hora dia="Miercoles">10:00</hora>
+                <hora dia="Miercoles">11:30</hora>
+                <hora dia="Viernes">10:00</hora>
+            </horas>
+        </modulo>
+        <modulo nombre="Entornos">            
+            <horas>
+                <hora dia="Lunes">13:30</hora>
+                <hora dia="Jueves">12:30</hora>
+                <hora dia="Jueves">13:30</hora>
+            </horas>
+        </modulo>
+    </table>
+</horario>
